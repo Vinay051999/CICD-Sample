@@ -1,3 +1,10 @@
 name: Basic CI pipeline
 
-# 
+on: [push]
+jobs: 
+    builds:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Build Stage
+              run: echo "hello from Ci"
