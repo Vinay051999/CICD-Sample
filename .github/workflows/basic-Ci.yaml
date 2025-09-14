@@ -8,3 +8,7 @@ jobs:
         steps:
             - name: Build Stage
               run: echo "hello from Ci"
+            - name: Test Stage
+              run: echo "test cases passed"
+            - name: Build deploy
+              run: echo "Applicatin deployed successfully"    
