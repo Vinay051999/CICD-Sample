@@ -12,3 +12,5 @@ jobs:
               run: echo "test cases passed"
             - name: Build deploy
               run: echo "Applicatin deployed successfully"    
+
+# CI
